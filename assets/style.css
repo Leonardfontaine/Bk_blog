@@ -1,0 +1,126 @@
+body{
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 16px;
+    font-weight: 300;
+    color: white!important;
+    background-color: #0b267d !important;
+    line-height: 30px;
+    text-align: justify!important;
+    padding: 50px;
+}
+
+strong { font-weight: 600; }
+
+.btn a {
+    color: #ed63c2 !important;
+    text-decoration: none;
+}
+
+.btn-outline-primary {
+    color: #ed63c2 !important;
+}
+
+.btn a:hover{
+    color:white !important;
+    text-decoration: none;
+}
+.btn, .btn:active, .btn:visited {
+    border-color: #ed63c2 !important;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ed63c2 !important;
+    text-decoration: overline;
+    color: white !important;
+}
+
+/* Css part for the navbar */
+.navbar{
+    background-color: #121a6d;
+}
+
+
+.nav-link,.navbar-brand{
+    color: azure;
+}
+
+.nav-link.active{
+    color:#ed63c2 !important; 
+    background-color: transparent!important;
+    border-radius: 0%!important;
+    border-bottom-color: #ed63c2 !important;
+    border-bottom-style: solid !important;
+}
+
+.navbar-brand:hover,.nav-link:hover{
+    color: #cfcfcf !important;
+}
+
+.nav-item{
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right: 3px;
+    
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("../image/burger.png");
+}
+
+
+.nav-item-active a{
+    margin-top: 3px;
+    color: #ed63c2;
+}
+
+.block{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* images for "how it work" */
+.register{
+    background-color: orange;
+    padding: 10px;
+    margin-right: 5%;
+}
+.enterinformation{
+    background-color: lightpink;
+    padding: 10px;
+    margin-right: 5%;
+}
+.startsharing{
+    background-color: skyblue;
+    padding: 10px;
+    margin-right: 5%;
+}
+.startearning{
+    background-color: deepskyblue;
+    padding: 10px;
+    margin-right: 5%;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.line{
+    display: flex;
+}
+
+.lilFont{
+    font-size: 13px !important;
+}
+
+.posttitle{
+    margin-left: 30px;
+}
+.post-thumb{
+    width:100%;
+}
