@@ -75,7 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '18.136.224.43:3306',
+	'hostname' => '18.136.224.43',
+	'port' => 3306,
 	'username' => 'root',
 	'password' => 'thaont',
 	'database' => 'bkblog',
@@ -94,5 +95,3 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
-$db['default']['port'] = 3306;
