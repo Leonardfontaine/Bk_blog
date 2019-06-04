@@ -13,7 +13,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6 block">
                         <?php foreach($posts as $post) : 
-                            if ($post['slug'] == 'About-the-bk-wallet') {
+                            if ($post['id'] == 1) {
                                 ?>
                         <center><h4><?php echo $post['title']; ?></h4></center>
                         <br/>

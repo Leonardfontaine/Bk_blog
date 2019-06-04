@@ -15,7 +15,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/pay.png" width="100px" height="100px" style="margin-top: 10%;">
                             <div class="column">    
                                     <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Pay') {
+                                    if ($post['id'] == 6) {
                                 ?>
                                 <h5> <?php echo $post['title']; ?></h5>
                                 <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -32,7 +32,7 @@
                                 <img src="<?php echo base_url(); ?>assets/image/recharge.png" width="100px" height="100px" style="margin-top: 10%;">
                                 <div class="column">    
                                     <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Recharge') {
+                                    if ($post['id'] == 7) {
                                     ?>
                                     <h5> <?php echo $post['title']; ?></h5>
                                     <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -49,7 +49,7 @@
                                 <img src="<?php echo base_url(); ?>assets/image/qr_code.png" width="100px" height="100px" style="margin-top: 10%;">
                                 <div class="column">    
                                     <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'QR-code') {
+                                    if ($post['id'] == 8) {
                                     ?>
                                     <h5> <?php echo $post['title']; ?></h5>
                                     <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -68,7 +68,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/withdraw.png" width="100px" height="100px" style="margin-top: 10%;">
                             <div class="column">    
                                     <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Withdraw') {
+                                    if ($post['id'] == 9) {
                                     ?>
                                     <h5> <?php echo $post['title']; ?></h5>
                                     <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -85,7 +85,7 @@
                                 <img src="<?php echo base_url(); ?>assets/image/history.png" width="100px" height="100px" style="margin-top: 10%;">
                                 <div class="column">    
                                    <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'History') {
+                                    if ($post['id'] == 10) {
                                     ?>
                                     <h5> <?php echo $post['title']; ?></h5>
                                     <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -102,7 +102,7 @@
                                 <img src="<?php echo base_url(); ?>assets/image/paypal.png" width="100px" height="100px" style="margin-top: 10%;">
                                 <div class="column">    
                                     <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Paypal') {
+                                    if ($post['id'] == 11) {
                                     ?>
                                     <h5> <?php echo $post['title']; ?></h5>
                                     <p class="lilFont"><?php echo $post['body']; ?></p>

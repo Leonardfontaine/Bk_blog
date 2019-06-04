@@ -11,7 +11,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/register.png" class="register rounded-circle" width="100px" height="90px">
                             <div class="column">     
                                 <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'RegisterLogin-to-our-platform') {
+                                    if ($post['id'] == 2) {
                                 ?>
                                 <h5> <?php echo $post['title']; ?></h5>
                                 <p class="lilFont"><?php echo $post['body']; ?></p>
@@ -28,7 +28,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/enterinformation.png" class="enterinformation rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Enter-your-informations-details') {
+                                    if ($post['id'] == 3) {
                                 ?>
                                 <h5> <?php echo $post['title']; ?></h5>
                                 <p class="lilFont"><?php echo $post['body']; ?>
@@ -45,7 +45,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/startshaing.png" class="startsharing rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Start-sharing-your-referral-link') {
+                                    if ($post['id'] == 4) {
                                 ?>
                                 <h5> <?php echo $post['title']; ?></h5>
                                 <p class="lilFont"><?php echo $post['body']; ?>
@@ -62,7 +62,7 @@
                             <img src="<?php echo base_url(); ?>assets/image/startearning.png" class="startearning rounded-circle" width="100px" height="90px">
                             <div class="column">    
                                 <?php foreach($posts as $post) : 
-                                    if ($post['slug'] == 'Start-earning-from-affiliate-system') {
+                                    if ($post['id'] == 5) {
                                 ?>
                                 <h5> <?php echo $post['title']; ?></h5>
                                 <p class="lilFont"><?php echo $post['body']; ?></p>
