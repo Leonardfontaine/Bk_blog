@@ -2,7 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif!important;
     font-size: 16px;
     font-weight: 300;
-    color: white!important;
+    color: black!important;
     background-color: #0b267d !important;
     line-height: 30px;
     text-align: justify!important;
@@ -10,6 +10,10 @@ body{
 }
 
 strong { font-weight: 600; }
+
+.home{
+    height: 100vh !important;
+}
 
 .btn a {
     color: #ed63c2 !important;
@@ -67,7 +71,7 @@ strong { font-weight: 600; }
 }
 
 .navbar .navbar-toggler-icon {
-  background-image: url("../image/burger.png");
+  background-image: url("<?php echo base_url(); ?>assets/image/burger.png");
 }
 
 
