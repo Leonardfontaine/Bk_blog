@@ -14,16 +14,6 @@
 		    <label>Body</label>
 		    <textarea id="editor1" class="form-control" name="body" placeholder="Add Body" style="height: 400px; "> <?php echo$post['body']; ?></textarea>
 		</div>
-		<?php if($post['category_id'] != 3){?>
-		<div class="form-group col-md-6 offset-md-3">
-			<label>Category</label>
-			<select name="category_id" class="form-control">
-				<?php foreach($categories as $category): ?>
-					<option value="<?php echo $category['iD']; ?>"><?php echo $category['name']; ?> </option>
-				<?php endforeach; ?>
-			</select>
-			<br/>
-		<?php } ?>
 		<div class="col-md-2 offset-md-3">
 		<button type="submit" class="btn btn-default"><a>Submit</a></button>
 		</div>

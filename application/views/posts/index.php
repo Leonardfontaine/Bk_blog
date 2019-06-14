@@ -1,6 +1,13 @@
+<br/>
+<br/>
+<br/>
+<br/>
+
 <center><h2>Last Updates</h2></center>
+<br/>
+
 <?php foreach($posts as $post) : 
-	if ($post['category_id'] != 0) {
+	if ($post['category_id'] == 2) {
 
 	?>
 	<br/>

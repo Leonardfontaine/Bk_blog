@@ -1,14 +1,12 @@
 <main>
         <div class="home">
             <div class="container smooth" id="about">
-                <!--
                 <br/>
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-                <br/>
-            -->
+
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <img src="<?php echo base_url(); ?>assets/image/web.png" width="400px" class="center-block">

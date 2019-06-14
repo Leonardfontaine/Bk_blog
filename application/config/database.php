@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '18.136.224.43',
+	'hostname' => 'localhost'/*'18.136.224.43'*/,
 	'port' => 3306,
 	'username' => 'root',
-	'password' => 'thaont',
+	'password' => 'pwdpwd'/*'thaont'*/,
 	'database' => 'bkblog',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

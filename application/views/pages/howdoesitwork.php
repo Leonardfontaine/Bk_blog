@@ -1,9 +1,11 @@
  <div class="howork" id="work">
+
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
+
             <div class="container smooth">
                 <div class="row">
                     <div class="col-md-5 offset-md-1 col-sm-8">

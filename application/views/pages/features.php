@@ -1,4 +1,5 @@
 <div class="features" id="features">
+    
         <br/>
         <br/>
         <br/>
@@ -118,9 +119,11 @@
                     </div>
                 </div>
             </div>
+            <!--
             <br/>
         <br/>
         <br/>
         <br/>
         <br/>
+        -->
         </div>

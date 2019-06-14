@@ -7,10 +7,19 @@
             <br/>
             <br/>
             <br/>
-                <center><h3> Roadmap</h3></center>
+                <?php foreach($posts as $post) : 
+                                    if ($post['id'] == 12) {
+                                ?>
+                <center><h3> <?php echo $post['title']; ?></h3></center>
                 <br/>
-                <center><p>The use of crypto-currencies has become more widespread, and they are now increasingly <br/> accepted as a legitimate currency for transactions</p></center>
+                <center><p><?php echo $post['body']; ?></p></center>
                 <br>
+                 <?php if($this->session->userdata('user_id') == 1): ?>
+                    <center><a class="btn btn-outline-primary" href="<?php echo base_url(); ?>posts/edit/<?php echo $post['slug'];?>"> Edit</a></center>
+                <?php
+                    endif;
+                    }
+                endforeach; ?>
                 <div class="container slickmap">
                     <div class="column">
                         <img src="<?php echo base_url(); ?>assets/image/withdraw.png" width="75px" height="75px" style="margin-left: auto; margin-right: auto;">
