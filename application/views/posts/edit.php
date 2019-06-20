@@ -14,6 +14,7 @@
 		    <label>Body</label>
 		    <textarea id="editor1" class="form-control" name="body" placeholder="Add Body" style="height: 400px; "> <?php echo$post['body']; ?></textarea>
 		</div>
+
 		<div class="col-md-2 offset-md-3">
 		<button type="submit" class="btn btn-default"><a>Submit</a></button>
 		</div>

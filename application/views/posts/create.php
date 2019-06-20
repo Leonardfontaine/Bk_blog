@@ -13,12 +13,6 @@
 		    <textarea id="editor1" class="form-control" name="body" placeholder="Add Body" style="height: 400px;"> </textarea>
 		</div>
 		<div class="form-group col-md-6 offset-md-3">
-			<label>Category</label>
-			<select name="category_id" class="form-control">
-				<?php foreach($categories as $category): ?>
-					<option value="<?php echo $category['iD']; ?>"><?php echo $category['name']; ?> </option>
-				<?php endforeach; ?>
-			</select>
 			<br/>
 		<div class="form-group">
 		  <label>Upload Image</label>

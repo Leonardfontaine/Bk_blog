@@ -1,6 +1,6 @@
 <main>
-        <div class="home">
-            <div class="container smooth" id="about">
+        <div class="home" id="about">
+            <div class="container smooth" >
                 <br/>
                 <br/>
                 <br/>
